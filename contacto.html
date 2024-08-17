@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/logica.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg miclase">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="Purple" class="bi bi-house-door" viewBox="0 0 16 16">
+          <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+        </svg>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./todosMisProyectos.html">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="d-flex justify-content-end align-items-center">
+      <div class="icon-round ms-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="Purple" class="bi bi-twitter-x" viewBox="0 0 16 16">
+          <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </div>
+      <div class="icon-round ms-3"></div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="Purple" class="bi bi-facebook" viewBox="0 0 16 16">
+        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+      </svg>
+      </div>
+      <div class="icon-round ms-3"></div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="Purple" class="bi bi-github" viewBox="0 0 16 16">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+      </svg>
+    </div>
+  </div>
+  </nav>
+
+  <header>
+    <h1 class="text-center">¡Hablemos!</h1>
+    <p id="mensajeFormulario">En este formulario tienes acceso instantanéo a mi buzón te prometo que te contactaré en menos de lo que canta un gallo.<img src=./assets/img/chickenEmoji5.png id="imagenGallo"> </p>
+  </header>
+
+
+      <section id="contact">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo:</label>
+                <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <button id="validaButton" type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Enviar</button>
+        </form>
+    </section>
+
+     <!-- Modal -->
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Aviso</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="contenido" class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer class="text-center bg-dark">
+    <p>&copy;2024 Mauricio B</p>
+</footer>
+
+        <script src="./assets/js/bootstrap.bundle.min.js"></script>
+        <script>
+        document.getElementById("validaButton").addEventListener("click", function() {
+        var message = document.getElementById("mensajeFormulario");
+        message.innerHTML = "El mensaje ya ha sido enviado. ¡En breve estaremos en contacto!";
+    });
+        </script>
+</body>
+</html>
